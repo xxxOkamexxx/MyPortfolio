@@ -1,13 +1,17 @@
 import React from 'react'
 import { Card, Placeholder } from 'react-bootstrap'
+import Work01 from '../assets/images/TMDB.png'
+import Work02 from '../assets/images/projects.png'
+import Work03 from '../assets/images/1day1page.png'
 
 const Works = () => {
+
   const works = [
     {
       id: 1,
       title: 'TMDB',
       description: 'Assignment to create a movie app that uses React to retrieve data from an API',
-      url: 'src/assets/images/TMDB.png',
+      url: Work01,
       linkText: 'go to netlify',
       link:'https://chikagemolander-tmdb-app.netlify.app'
     },
@@ -15,7 +19,7 @@ const Works = () => {
       id: 2,
       title: 'Projects',
       description: 'Codes created through school assignments and self-study',
-      url: 'src/assets/images/projects.png',
+      url: Work02,
       linkText: 'go to Github',
       link:'https://github.com/xxxOkamexxx'
     },
@@ -23,7 +27,7 @@ const Works = () => {
       id: 3,
       title: 'UX design',
       description: 'I am engaging in an initiative for learning UX design, which involves redesigning past apps or websites I have created and tracing existing websites, aiming to complete one page per day.',
-      url: 'src/assets/images/1day1page.png',
+      url: Work03,
     },
   ]
 
