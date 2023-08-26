@@ -4,7 +4,7 @@ export const skills = [
   'Typescript',
   'SCSS',
   'React',
-  'View',
+  'Vue',
   'Node.js',
   'REST API',
   'Adobe Photoshop',
