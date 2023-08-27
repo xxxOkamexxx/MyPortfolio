@@ -10,7 +10,7 @@ const Works = () => {
     {
       id: 1,
       title: 'TMDB',
-      description: 'Assignment to create a movie app that uses React to retrieve data from an API',
+      description: 'This application was created using React.js as part of my learning process to develop applications that interact with databases.',
       url: Work01,
       linkText: 'go to netlify',
       link:'https://chikagemolander-tmdb-app.netlify.app'
@@ -26,7 +26,7 @@ const Works = () => {
     {
       id: 3,
       title: 'UX design',
-      description: 'I am engaging in an initiative for learning UX design, which involves redesigning past apps or websites I have created and tracing existing websites, aiming to complete one page per day.',
+      description: 'When developing apps and websites, I thoroughly grasp user concerns and business objectives, using them as a foundation for generating ideas. Using these concepts, I formulate wireframes and prototypes.',
       url: Work03,
     },
   ]
