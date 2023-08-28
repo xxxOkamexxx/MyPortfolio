@@ -40,7 +40,7 @@ const Works = () => {
           <h4 className='card-title'>{work.title}</h4>
           <p className='card-text'>{work.description}</p>
           {work.link && (
-            <a href={work.link} className='card-link'>{work.linkText}</a>
+            <a href={work.link} className='card-link' target='_blank'>{work.linkText}</a>
           )}
         </Card>
       ))}

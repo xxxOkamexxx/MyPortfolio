@@ -17,6 +17,7 @@ const Profile = () => {
         <div className='links_container'>
           <a 
             href="https://www.linkedin.com/in/chikage-takahashi-molander-542a71220/" 
+            target='_blank'
           >
             <LinkedInIcon />
           </a>
@@ -29,6 +30,7 @@ const Profile = () => {
           
           <a 
             href="https://github.com/xxxOkamexxx"
+            target='_blank'
           >
             <GitHubIcon />
           </a>
