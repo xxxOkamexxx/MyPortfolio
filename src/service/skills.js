@@ -5,6 +5,7 @@ export const skills = [
   'SCSS',
   'React',
   'Vue',
+  'Wordpress',
   'Node.js',
   'REST API',
   'Adobe Photoshop',
