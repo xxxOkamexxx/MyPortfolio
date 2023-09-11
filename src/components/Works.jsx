@@ -16,7 +16,7 @@ const Works = () => {
     description: '',
     linkText: '',
     link:'',
-    worksDetailURL:[],
+    worksDetailURL:'',
   })
   const [open, setOpen] = useState(false);
   
@@ -38,11 +38,11 @@ const Works = () => {
                     id: work.id,
                     title: work.title,
                     category: work.category,
-                    detail:work.detail,
+                    detail: work.detail,
                     description: work.description,
                     linkText: work.linkText,
-                    link:work.url,
-                    worksDetailURL:[...work.worksDetailURL],
+                    link: work.link,
+                    worksDetailURL: work.worksDetailURL,
                   })
                   console.log(myWork)
                 }}

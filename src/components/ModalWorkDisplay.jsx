@@ -3,6 +3,7 @@ import Modal from 'react-bootstrap/Modal';
 import { Button } from 'react-bootstrap';
 
 const ModalWorkDisplay = ({open, onClose ,myWork}) => {
+
   return (
     <>
       <Modal 
@@ -14,16 +15,18 @@ const ModalWorkDisplay = ({open, onClose ,myWork}) => {
           <Modal.Title>{myWork.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>{myWork.category}</p>
-          <p>{myWork.detail}</p>
-          <p>{myWork.description}</p>
-          <div>
-            {myWork.worksDetailURL?.map(image => (
-              <img src={image} key={image}/>
-            ))}
+          <div className='modal-description-container'>
+            <p>{myWork.category}</p>
+            <p>{myWork.detail}</p>
+            <p>{myWork.description}</p>
+            { myWork.link && (
+              <p><a href={myWork.link} target='_blank'>{myWork.linkText}</a></p>
+            )}
           </div>
-        
-        
+
+          <div className='modal-img-container'>
+            <img src={myWork.worksDetailURL} className='modal-img'/>   
+          </div>
         
         </Modal.Body>
 

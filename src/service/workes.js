@@ -3,10 +3,10 @@ import Work02 from '../assets/images/b2bHero.png'
 import Work03 from '../assets/images/swapi.png'
 import Work04 from '../assets/images/TMDB.png'
 import Work05 from '../assets/images/projects.png'
-import Works01a from '../assets/images/yogapc.jpg'
-import Works01b from '../assets/images/yogamobil.jpg'
-import Works02a from '../assets/images/b2bpc.png'
-import Works02b from '../assets/images/b2bmobil.png'
+import Works01a from '../assets/images/yoga.png'
+import Works02a from '../assets/images/b2b.png'
+import Works03a from '../assets/images/swapi2.png'
+import Works04a from '../assets/images/TMDB2.png'
 
 export const works = [
   {
@@ -16,9 +16,9 @@ export const works = [
     detail:'Figma',
     description: "I redesigned an actual website (randomly chosen) as a project for learning Figma and UX design.",
     url: Work01,
-    linkText: '',
-    link:'/work/01',
-    worksDetailURL:[Works01a, Works01b],
+    linkText: null,
+    link: null,
+    worksDetailURL: Works01a,
   },
   {
     id: 2,
@@ -27,9 +27,9 @@ export const works = [
     detail:'Figma',
     description: "I redesigned an actual website (randomly chosen) as a project for learning Figma and UX design.",
     url: Work02,
-    linkText: '',
-    link:'/work/02',
-    worksDetailURL:[Works02a, Works02b],
+    linkText: null,
+    link: null,
+    worksDetailURL: Works02a,
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ export const works = [
     url: Work03,
     linkText: 'go to netlify',
     link:'https://dapper-naiad-d7fe3b.netlify.app',
-    worksDetailURL:[],
+    worksDetailURL: Works03a,
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const works = [
     url: Work04,
     linkText: 'go to netlify',
     link:'https://chikagemolander-tmdb-app.netlify.app',
-    worksDetailURL:[],
+    worksDetailURL: Works04a,
   },
   {
     id: 5,
@@ -62,7 +62,7 @@ export const works = [
     url: Work05,
     linkText: 'go to Github',
     link:'https://github.com/xxxOkamexxx',
-    worksDetailURL:[],
+    worksDetailURL:'',
   },
   
 ]
