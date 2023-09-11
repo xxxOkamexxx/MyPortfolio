@@ -5,13 +5,14 @@ import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Skills from '../components/Skills';
 import Portfolio from '../components/Portfolio';
+import AboutMe from '../components/AboutMe';
 
 const Profile = () => {
   return (
     <div className='container'>
       
       <div className="profile_container 
-  text-align: center;">
+      text-align: center;">
         {/* <h2 className='headline'>CHIKAGE TAKAHASHI-MOLANDER</h2> */}
 
         <div className='links_container'>
