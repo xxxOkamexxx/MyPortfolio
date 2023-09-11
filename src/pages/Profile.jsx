@@ -38,9 +38,7 @@ const Profile = () => {
         </div>
 
         <hr />
-        <p>Creative web developer with strong design skills.
-          Experience in architecture and fashion/textile design.
-          Diploma as a frontend developer from Medieinstitutet.</p>
+
       
 
       </div>
