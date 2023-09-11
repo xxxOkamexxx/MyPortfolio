@@ -8,7 +8,16 @@ import ModalWorkDisplay from './ModalWorkDisplay';
 
 
 const Works = () => {
-  const [myWork, setMyWork] = useState('')
+  const [myWork, setMyWork] = useState({
+    id: null,
+    title: '',
+    category: '',
+    detail:'',
+    description: '',
+    linkText: '',
+    link:'',
+    worksDetailURL:[],
+  })
   const [open, setOpen] = useState(false);
   
   
@@ -25,7 +34,17 @@ const Works = () => {
                 className='card' 
                 onClick={() => {
                   setOpen(true)
-                  setMyWork(work.title)
+                  setMyWork({
+                    id: work.id,
+                    title: work.title,
+                    category: work.category,
+                    detail:work.detail,
+                    description: work.description,
+                    linkText: work.linkText,
+                    link:work.url,
+                    worksDetailURL:[...work.worksDetailURL],
+                  })
+                  console.log(myWork)
                 }}
               >
                 <img className='card-image' src={work.url} alt={work.title} />
