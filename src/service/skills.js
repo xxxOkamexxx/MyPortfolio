@@ -1,17 +1,20 @@
 export const skills = [
-  'HTML/CSS',
+  'HTML',
+  'CSS/SCSS',
   'Javascript',
   'Typescript',
-  'SCSS',
   'React',
-  'Vue',
+  'Redux',
+  'Material-UI',
   'Wordpress',
   'Node.js',
-  'REST API',
+  'RESTful APIs',
+  'Responsive Design',
   'Adobe Photoshop',
   'Adobe Illustrator',
   'Adobe XD',
   'Figma',
-  'Git',
-  'Agile/Scrum'
+  'Version Control(Git)',
+  'Agile Development',
+  'Team Collaboration'
 ]
