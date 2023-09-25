@@ -12,7 +12,7 @@ export const works = [
   {
     id: 1,
     title: 'Landing Page Design',
-    category: 'UX Design',
+    category: 'UX/UI Design',
     detail:'Figma',
     description: "I redesigned an actual website (randomly chosen) as a project for learning Figma and UX design.",
     url: Work01,
@@ -23,7 +23,7 @@ export const works = [
   {
     id: 2,
     title: 'Landing Page Design',
-    category: 'UX Design',
+    category: 'UX/UI Design',
     detail:'Figma',
     description: "I redesigned an actual website (randomly chosen) as a project for learning Figma and UX design.",
     url: Work02,
