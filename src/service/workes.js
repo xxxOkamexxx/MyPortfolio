@@ -12,7 +12,7 @@ export const works = [
   {
     id: 1,
     title: 'Landing Page Design',
-    category: 'UX/UI Design',
+    category: 'Web Design',
     detail:'Figma',
     description: "This project involves the redesign of N-Yoga's website, a yoga studio located in Lund, Sweden. This studio offers a place of relaxation, tranquility, and growth, irrespective of one's background, religion, or tradition. The main goals included creating a clear and modern design, user-friendly navigation, high-quality content, easy course discovery, and effectively conveying the atmosphere of the yoga classes..",
     url: Work01,
@@ -23,7 +23,7 @@ export const works = [
   {
     id: 2,
     title: 'Landing Page Design',
-    category: 'UX/UI Design',
+    category: 'Web Design',
     detail:'Figma',
     description: "This project involves the redesign of Argonova's website. Argonova is a digital agency with a wealth of experience in leading digital success, catering to both startups and venture companies with innovative thinking, unbound by conventional notions. Our company's goal is to ensure that our clients' investments yield results in the form of more customers and a stronger brand. The main objectives were to create a clear and modern design, effectively convey our company's philosophy, and design in a way that clearly communicates the skills we possess and the support we provide.",
     url: Work02,
