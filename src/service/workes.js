@@ -16,8 +16,8 @@ export const works = [
     detail:'Figma',
     description: "This project involves the redesign of N-Yoga's website, a yoga studio located in Lund, Sweden. This studio offers a place of relaxation, tranquility, and growth, irrespective of one's background, religion, or tradition. The main goals included creating a clear and modern design, user-friendly navigation, high-quality content, easy course discovery, and effectively conveying the atmosphere of the yoga classes..",
     url: Work01,
-    linkText: null,
-    link: null,
+    linkText: 'go to netlify (work in progress)',
+    link: 'https://lp-design-yogastudio.netlify.app/',
     worksDetailURL: Works01a,
   },
   {
