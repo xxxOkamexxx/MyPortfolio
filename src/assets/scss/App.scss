@@ -86,7 +86,7 @@ p {
         color: #555;
         background-color: rgb(226, 208, 175);
         padding: 8px 16px;
-        border-radius: 4px 4px 4px 16px;
+        border-radius: 4px;
       }
     }
   }
@@ -106,7 +106,7 @@ p {
   .card{
     margin-bottom: 2em;
     padding: 2em 1em;
-    border-radius: 16px 16px 16px 64px;
+    border-radius: 16px;
     height: 400px;
 
     .card-image {
