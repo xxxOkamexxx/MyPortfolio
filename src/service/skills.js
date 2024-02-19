@@ -5,6 +5,8 @@ export const skills = [
   'Typescript',
   'React',
   'Redux',
+  'GraphQL',
+  'Next.js',
   'Material-UI',
   'Wordpress',
   'Node.js',
