@@ -1,10 +1,10 @@
 import Work01 from '../assets/images/yogaHero.jpg'
-import Work02 from '../assets/images/b2bHero.png'
+import Work02 from '../assets/images/tront-cupcake-thumbnail.png'
 import Work03 from '../assets/images/swapi.png'
 import Work04 from '../assets/images/TMDB.png'
 import Work05 from '../assets/images/projects.jpg'
 import Works01a from '../assets/images/yoga.png'
-import Works02a from '../assets/images/b2b.png'
+import Works02a from '../assets/images/tront-cupcake.jpg'
 import Works03a from '../assets/images/swapi2.png'
 import Works04a from '../assets/images/TMDB2.png'
 
@@ -22,10 +22,10 @@ export const works = [
   },
   {
     id: 2,
-    title: 'Landing Page Design',
+    title: 'Landing Page ReDesign',
     category: 'Web Design',
     detail:'Figma',
-    description: "This project involves the redesign of Argonova's website. Argonova is a digital agency with a wealth of experience in leading digital success, catering to both startups and venture companies with innovative thinking, unbound by conventional notions. Our company's goal is to ensure that our clients' investments yield results in the form of more customers and a stronger brand. The main objectives were to create a clear and modern design, effectively convey our company's philosophy, and design in a way that clearly communicates the skills we possess and the support we provide.",
+    description: "This is a task to redesign the landing page of Tront Cupcake's website. The current landing page is not only difficult to read but also lacks a clear main heading and call-to-action (CTA). Additionally, important sections such as product listings are missing from the homepage, making it ineffective. The goal is to focus on messaging, visualization, and effective CTAs to improve the overall user experience.",
     url: Work02,
     linkText: null,
     link: null,
